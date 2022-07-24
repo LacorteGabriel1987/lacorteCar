@@ -1,87 +1,97 @@
-.titulo {
-	background: gray;
-	font-size: 20px;
-	text-transform: uppercase;
-	text-align: center;
-	padding: 5px;
-	font-weight: bold;
-}
 
+#logo{
+	width: 50px;
+		
+}
 header {
-	background: lightgray;
-	padding: 20px 0;
+	background: rgba(219, 164, 164, 0.973);
+	padding: 30px 0;	
+		
 }
 
-.caixa {
-	position: relative;
-	width: 940px;
-	margin: 0 auto;
+.navbar-brand {
+	display: flex;
 	
 }
 
-nav {
-	position: absolute;
-	top: 110px;
-	right: 0;
-}
-
-nav li {
-	display: inline;
-	margin: 0 0 0 20px;
-}
-
-nav a {
-	text-transform: uppercase;
-	color: red;
-	font-weight: bold;
-	font-size: 20px;
-	text-decoration: none;
-}
-
-nav a:hover {
-	color: black;
-	text-decoration: underline;
-}
-
-.banner{
+.banner {
+	height: 30vh;
+	object-fit: cover;
 	width: 100%;
 	height: 300px;	
-}
-.institucional{
-	width: 940px;
-	margin: 0 auto;
-	padding: 50px 0;
-}
-.institucional li {
-	display: inline-block;
-	text-align: center;
-	width: 30%;
-	vertical-align: top;
-	margin: 0 1.5%;
-	padding: 20px 30px;
-	box-sizing: border-box;
-	border: 3px solid black;
-	border-radius: 10px;
-}
-
-.institucional li:hover {
-	border-color: red;
 	
 }
+/* Sobre a empresa */
 
-.institucional h2{
-	font-size: 25px;
-	padding: 15px 0;
-}
 
-.institucional p{
-	padding: 10px 0;
-	font-size: 15px;
-}
 
-.rodape {
-	background: white;
-}
+#about-area {
+	background-color: #F9F9F9;
+  }
+  
+  .main-title {
+	color: #444;
+	margin: 0 0 65px 0;
+	font-size: 24px;
+	text-align: center;
+  }
+  
+  .main-title::after {
+	content: "";
+	border-top: 2px solid #333;
+	width: 15%;
+	position: absolute;
+	top: 60px;
+	left: 42.5%;
+  }
+  
+  .about-title {
+	font-size: 14px;
+	color: #444;
+	text-transform: uppercase;
+	font-weight: bold;
+  }
+  
+  #about-list {
+	list-style: none;
+	padding-left: 0;
+  }
+  
+  #about-list li {
+	line-height: 30px;
+  }
+  
+  #about-list i {
+	color: #65DAF9;
+	margin-right: 15px;
+  }
+
+/* Serviços */
+
+.service-box {
+	text-align: center;
+	margin-bottom: 24px;
+  }
+  
+  .service-box i, .service-box h4 {
+	transition: .5s;
+  }
+  
+  .service-box i {
+	font-size: 14px;
+	margin-bottom: 20px;
+	color: #444;
+  }
+  
+  .service-box h4 {
+	font-size: 22px;
+	margin-bottom: 20px;
+  }
+  
+  .service-box:hover > i, .service-box:hover > h4 {
+	color: #65DAF9;
+  }
+
 
 .mapa{
 	background: lightgray;
@@ -90,10 +100,12 @@ nav a:hover {
 	box-sizing: border-box;
 	padding: 20px 30px;
 	box-sizing: border-box;
+	
+
 }
 footer{
 	text-align: center;
 	background: black;
 	color: white;
-	font-size:13px;
+	font-size:14px;
 }
