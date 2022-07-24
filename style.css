@@ -1,18 +1,21 @@
 
 #logo{
-	width: 50px;
+	width: 80px;
+	
 		
 }
 header {
 	background: rgba(219, 164, 164, 0.973);
-	padding: 30px 0;	
+	padding: 30px 0;
+	height: 90px;
 		
 }
 
 .navbar-brand {
 	display: flex;
-	
+		
 }
+
 
 .banner {
 	height: 30vh;
@@ -23,8 +26,13 @@ header {
 }
 /* Sobre a empresa */
 
-
-
+.img-fluid{
+	max-width: 500px;
+	width: 399px;
+	margin-left: 80px;
+	height: 100px;
+	
+}
 #about-area {
 	background-color: #F9F9F9;
   }
@@ -68,41 +76,37 @@ header {
 
 /* Serviços */
 
-.service-box {
+.container{
+	display:inline-block;
+	display: flex;
+	flex-flow: row;
+	margin: 30px;
+	padding: 30px;
+
+}
+.engrenagem, h4{
 	text-align: center;
-	margin-bottom: 24px;
+	margin:30px;
+	padding: 0;
+	flex: content;
   }
   
-  .service-box i, .service-box h4 {
+  .engrenagem i, h4{
 	transition: .5s;
   }
   
-  .service-box i {
+  .engrenagem i, h4 {
 	font-size: 14px;
-	margin-bottom: 20px;
+	
 	color: #444;
   }
   
-  .service-box h4 {
-	font-size: 22px;
-	margin-bottom: 20px;
-  }
-  
-  .service-box:hover > i, .service-box:hover > h4 {
-	color: #65DAF9;
+   
+  .engrenagem:hover > i, h4 {
+	color: #487b88;
   }
 
 
-.mapa{
-	background: lightgray;
-	margin: 10 auto;
-	width: 10px auto;
-	box-sizing: border-box;
-	padding: 20px 30px;
-	box-sizing: border-box;
-	
-
-}
 footer{
 	text-align: center;
 	background: black;
