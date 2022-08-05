@@ -1,19 +1,20 @@
-
 #logo{
-	width: 80px;
-	
-		
+	width: 80px;		
 }
 header {
-	background: rgba(219, 164, 164, 0.973);
+	background: rgba(197, 133, 133, 0.973);
 	padding: 30px 0;
-	height: 90px;
-		
+	height: 90px;		
 }
 
-.navbar-brand {
-	display: flex;
+#about-area, #services-area {
+	background-color: #eaf0eae1;
 		
+ }
+
+
+.navbar-brand {
+	display: flex;		
 }
 
 
@@ -31,12 +32,7 @@ header {
 	width: 399px;
 	margin-left: 80px;
 	height: 100px;
-	
-}
-#about-area {
-	background-color: #F9F9F9;
-  }
-  
+}  
   .main-title {
 	color: #444;
 	margin: 0 0 65px 0;
@@ -51,6 +47,7 @@ header {
 	position: absolute;
 	top: 60px;
 	left: 42.5%;
+	
   }
   
   .about-title {
@@ -58,6 +55,7 @@ header {
 	color: #444;
 	text-transform: uppercase;
 	font-weight: bold;
+	
   }
   
   #about-list {
@@ -79,10 +77,8 @@ header {
 .container{
 	display:inline-block;
 	display: flex;
-	flex-flow: row;
-	margin: 30px;
-	padding: 30px;
-
+	flex-flow: row;	
+	background-color: rgb(224, 197, 164);
 }
 .engrenagem, h4{
 	text-align: center;
@@ -105,11 +101,15 @@ header {
   .engrenagem:hover > i, h4 {
 	color: #487b88;
   }
-
+.mapa{
+	margin: 0;
+	padding: 0;
+}
 
 footer{
 	text-align: center;
 	background: black;
 	color: white;
 	font-size:14px;
+	
 }
