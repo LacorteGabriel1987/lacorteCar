@@ -81,7 +81,7 @@ header {
 	display: flex;
 	flex-flow: row;	
 	background-color: rgb(224, 197, 164);
-	padding-top: 50px;
+	
 }
 .engrenagem, h4{
 	text-align: center;
