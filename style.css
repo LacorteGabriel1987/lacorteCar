@@ -27,9 +27,13 @@ header {
 }
 /* Sobre a empresa */
 
+
+
 .img-fluid{
 	width: 400px;
-	margin-left: 70px;
+	display: block;
+	justify-content: center;
+	
 	
 }  
   .main-title {
