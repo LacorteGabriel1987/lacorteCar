@@ -1,6 +1,12 @@
 #logo{
-	width: 80px;		
+	width: 80px;
 }
+
+html{
+	scroll-behavior: smooth;
+}
+
+
 header {
 	background: rgba(197, 133, 133, 0.973);
 	padding: 30px 0;
